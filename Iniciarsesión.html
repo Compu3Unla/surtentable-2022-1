@@ -13,19 +13,21 @@
 	<h1>Empezá a reciclar</h1>
 	<aside> 
 		<img src="Imagenes/Group 29.png" width="180px" alt="Logo"/>
-		<ul>
-			<li>E-mail</li>
-			<li>Ejemplo@gmail.com</li>
-			<li>Contraseña</li>
-			<li>Al menos 8 caracteres</li>
-			<li>Olvide mi contraseña</li>
-		</ul>
-		<p>Iniciar sesión</p>
+		<form method="post" action="mailto:camicosti118@gmail.com?subject='Email enviado desde el form'" target="_blank" enctype="text/plain">
+			<ul>
+				<li><label for="Email"> Email</label></li>
+				<input type="email" name="Email" id="Email" placeholder="ejemplo@gmail.com" required>
+				<li><label for="Contraseña"> Contraseña</label></li>
+				<input type="password" name="Contraseña" id="Contrasena" placeholder="Al menos 8 caracteres" minlength="8" requiere>
+				<li>Olvidé mi contraseña</li>
+				<input type="submite">
+			</ul>
+		</form>
+	</aside>
 		<ul>
 			<li>¿No tenés cuenta?</li>
 			<li>Create una</li>			
 		</ul>
-	</aside>
 </main>
 	<footer>
 	<img src="Imagenes/Group 6.png" width="10px" alt= "C"/>
