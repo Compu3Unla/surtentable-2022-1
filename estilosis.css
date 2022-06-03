@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	background-color: #DEE8E9
+}
+
+input {
+	border: 2px solid #43878D;
+	border-radius: 40px;
+}
+
+label {
+	color: #81B214;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+placeholder {
+	text-decoration: none;
+	color: #81B214;
+	opacity: 50%;
+}
+
+li {
+	list-style: none;
+}
+
+.textochico {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	color: #81B214;
+}
+#createuna {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	color: #43878D;
+}
