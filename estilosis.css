@@ -8,31 +8,25 @@
 
 * {
 	font-family: ReadexPro Regular;
-	color: #DEE8E9;
 }
 
 body {
-	background-color: #DEE8E9;
+	background-image: url("Imagenes/FondoIS.jpg");
 }
 
 input {
 	border: 2px solid #43878D;
 	border-radius: 40px;
-	width: 590px;
-	height: 46px;
-	padding-left: 15px;
+	width: 350px;
+	height: 35px;
+	padding-left: 10px;
+	background-color: #DEE8E9;
 }
 
 label {
 	color: #81B214;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 25px;
-}
-
-placeholder {
-	text-decoration: none;
-	color: #81B214;
-	opacity: 50%;
 }
 
 li {
@@ -40,20 +34,26 @@ li {
 }
 
 .textochico {
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 12px;
+	line-height: 20px;
 	color: #81B214;
 }
 #createuna {
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 12px;
+	line-height: 20px;
 	color: #43878D;
 }
 
+.notenesuna {
+	display: flex;
+	justify-content:center
+}
+
 h1 {
-	font-size: 63px;
-	line-height: 79px;
+	font-size: 45px;
+	line-height: 60px;
 	color: #DEE8E9;
+	margin: 0px 300px 20px -10px;
 }
 
 #botoninicio {
@@ -61,17 +61,21 @@ h1 {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 40px;
 	border: none;
-	width: 366px;
-	height: 70px;
-	font-size: 18px;	
+	width: 250px;
+	height: 50px;
+	font-size: 15px;
+	color: #DEE8E9;
+	margin: 15px -30px 0px 120px;
 }
 
 footer {
 	font-size: 14px;
-	width: 1164px;
-	height: 38px;
+	width: 768px;
+	height: 28px;
 	background-color: #81B214;
 	padding: 10px;
+	color: #DEE8E9;
+	position: absolute;
 }
 
 #legales {
@@ -82,5 +86,26 @@ footer {
 
 ::placeholder{
 	color: #81B214;
-	font-size: 20px;
+	font-size: 12px;
+	opacity: 50%;
+	background-color: #DEE8E9;
+}
+
+.inicio {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 5% 40px 5%;
+	height: 600px;
+}
+
+.empezareciclar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }

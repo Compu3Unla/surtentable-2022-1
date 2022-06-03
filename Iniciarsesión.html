@@ -4,32 +4,38 @@
 	<meta charset="utf-8">
 	<title>Documento sin título</title>
 	<link href="estilosis.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
 </head>
 
 <body>
 	<main>
-		<img src="Imagenes/flecha_.png" width="25px" alt="Flecha_atras"/>
-		<h1>EMPEZÁ A RECICLAR</h1>
-		<aside> 
-			<img src="Imagenes/Group 29.png" width="180px" alt="Logo"/>
-			<form method="post" action="mailto:camicosti118@gmail.com?subject='Email enviado desde el form'" target="_blank" enctype="text/plain">
-				<ul>
-					<li><label for="Email"> EMAIL</label></li>
-					<input type="email" name="Email" id="Email" placeholder="ejemplo@gmail.com" required>
-					<li><label for="Contraseña"> CONTRASEÑA</label></li>
-					<input type="password" name="Contraseña" id="Contrasena" placeholder="Al menos 8 caracteres" minlength="8" requiere>
-					<li class="textochico"> Olvidé mi contraseña</li>
+		<section class="inicio">
+			<div class="empezareciclar">
+				<img src="Imagenes/flecha_.png" width="25px" alt="Flecha_atras"/>
+				<h1>EMPEZÁ A RECICLAR</h1>
+			</div>
+			<aside> 
+				<img src="Imagenes/Group 29.png" width="180px" alt="Logo"/>
+				<form method="post" action="mailto:camicosti118@gmail.com?subject='Email enviado desde el form'" target="_blank" enctype="text/plain">
+					<ul>
+						<li><label for="Email"> EMAIL</label></li>
+						<input type="email" name="Email" id="Email" placeholder="ejemplo@gmail.com" required>
+						<li><label for="Contraseña"> CONTRASEÑA</label></li>
+						<input type="password" name="Contraseña" id="Contrasena" placeholder="Al menos 8 caracteres" minlength="8" requiere>
+						<li class="textochico"> Olvidé mi contraseña</li>
+					</ul>
+					<input id="botoninicio" type="submit" value="Iniciar sesión" formenctype="text/plain">
+				</form>
+				<ul class="notenesuna">
+					<li class="textochico"> ¿No tenés cuenta?</li>
+					<li id="createuna">Create una</li>
 				</ul>
-				<input id="botoninicio" type="submit" value="Iniciar sesión" formenctype="text/plain">
-			</form>
-		</aside>
-		<ul>
-			<li class="textochico"> ¿No tenés cuenta?</li>
-			<li id="createuna">Create una</li>
-		</ul>
+			</aside>
+		</section>
 	</main>
 	<footer>
-		<img src="Imagenes/Group 6.png" width="10px" alt= "C"/>		<p id="legales">
+		<img src="Imagenes/Group 6.png" width="10px" alt= "C"/>		
+		<p id="legales">
 		2022 Surtentable
 		Términos y condiciones
 		Politica de provacidad
