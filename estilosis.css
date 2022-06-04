@@ -14,6 +14,17 @@ body {
 	background-image: url("Imagenes/FondoIS.jpg");
 }
 
+h1 {
+	font-size: 45px;
+	line-height: 60px;
+	color: #DEE8E9;
+	margin: 0px 300px 20px -10px;
+}
+
+.flechatras {
+	margin: 20px 0px 0px -10px;
+}
+
 input {
 	border: 2px solid #43878D;
 	border-radius: 40px;
@@ -21,12 +32,14 @@ input {
 	height: 35px;
 	padding-left: 10px;
 	background-color: #DEE8E9;
+	margin: 0px 0px 30px 0px;
 }
 
 label {
 	color: #81B214;
 	font-size: 15px;
 	line-height: 25px;
+	margin: 0px 0px 0px 10px;
 }
 
 li {
@@ -38,23 +51,6 @@ li {
 	line-height: 20px;
 	color: #81B214;
 }
-#createuna {
-	font-size: 12px;
-	line-height: 20px;
-	color: #43878D;
-}
-
-.notenesuna {
-	display: flex;
-	justify-content:center
-}
-
-h1 {
-	font-size: 45px;
-	line-height: 60px;
-	color: #DEE8E9;
-	margin: 0px 300px 20px -10px;
-}
 
 #botoninicio {
 	background: #81B214;
@@ -65,7 +61,7 @@ h1 {
 	height: 50px;
 	font-size: 15px;
 	color: #DEE8E9;
-	margin: 15px -30px 0px 120px;
+	margin: 65px -30px 0px 100px;
 }
 
 footer {
@@ -104,8 +100,25 @@ footer {
 	justify-content: space-between;
 }
 
+.textochico {
+	margin: -28px 0px 0px 10px;
+}
+
 aside {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin: 10px -20px 0px 30px;
 }
+
+.notenesuna {
+	display: flex;
+	justify-content:center;
+	margin: 35px 40px 200px 35px;
+}
+
+#createuna {
+	font-size: 12px;
+	line-height: 20px;
+	color: #43878D;
+	margin: -28px 0px 0px 5px;
