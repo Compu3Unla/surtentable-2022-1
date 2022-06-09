@@ -19,12 +19,12 @@ body{
 
 header{
 	background-color: rgba(246, 254, 255, 1);
-	padding:30px;
+	padding:20px;
 	display:flex;	
 }
 
 nav{
-	width:100%;
+	width: 1280px;
 	height: 100%;
 	align-self: flex-end;
 	
@@ -37,11 +37,8 @@ nav{
 	list-style: none;
 	background-color: rgba(246, 254, 255, 1);
 	font-style: normal;
-	font-weight: 500;
-	font-size: 15px;
-	color: rgba(38, 102, 107, 1);	
-	
-	
+	font-size: 12px;
+	color: rgba(38, 102, 107, 1);		
 }
 
 li{
@@ -51,28 +48,24 @@ li{
 #IniciarSesion{
 	color:rgba(255, 255, 255, 1);
 	background: #81B214;
-	padding:8px 15px 8px 25px;
+	padding: 8px 8px 8px 20px;
 	margin:0px 10px;
-	width: 150px;
+	width: 120px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 40px;	
 }
 
 #Registrarme{
 	border: 0.5px solid #000000;
-	padding:7px 30px 7px 15px;
+	padding: 8px 8px 8px 25px;
 	margin:0px 10px;
 	width: 120px;
-	box-shadow: 0px 4px 4px #000000;
+	box-shadow: 0px 3px 3px rgba(31, 44, 4, 0.46);
 	border-radius: 40px;
-}
-main{
-	height:auto;
-	height: 800px;
 }
 
 #ConteElementosCarrusel{
-	height:500px;
+	height: 425px;
 	overflow: hidden;
 }
 
@@ -125,14 +118,11 @@ main{
 	background-size: 100%;
 }
 
-
-
 .elementoCarrusel{
 	font-family: 'Readex Pro';
 	color:white;
 	display: flex;
-	flex-direction: column;
-		
+	flex-direction: column;	
 }
 
 .TextoIconos{
@@ -147,8 +137,7 @@ main{
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
-	margin-bottom: 30px;
-	
+	margin-bottom: 30px;	
 }
 
 p{
@@ -177,16 +166,16 @@ a{
 	
 }
 
-#ContenedorPuntos > a{
+#ContenedorPuntos a{
 	font-size:20px;
-	padding: 10px;
-	color: gray;
+	padding: 5px 10px 5px 10px;
+	color: #81B214;
 }
 
 footer {
-	width: 100%;
+	width: 1280px;
 	background-color:rgba(129, 178, 20, 1);
-	padding: 10px 20px;
+	padding: 10px 0px 0px 0px;
 	font-size: 12px;
 }	
 
@@ -197,9 +186,7 @@ footer {
 .Textoslegales{
 	display: flex;
 	list-style: none;
-	color: rgba(255, 255, 255, 1);
-	font-style: normal;
-	font-weight: 300;		
+	color: rgba(255, 255, 255, 1);	
 }	
 
 
