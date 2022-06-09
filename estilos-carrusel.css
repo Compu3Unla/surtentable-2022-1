@@ -13,10 +13,6 @@
 	box-sizing:border-box;
 }
 
-body{
-	font-family: 'Readex Pro';
-}
-
 header{
 	background-color: rgba(246, 254, 255, 1);
 	padding: 8px 12px 12px 12px;
@@ -45,8 +41,12 @@ li{
 	padding: 0px 15px;
 }
 
+a {
+	text-decoration: none;
+	color: #D3DBDC;
+}
+
 #IniciarSesion{
-	color:rgba(255, 255, 255, 1);
 	background: #81B214;
 	padding: 8px 8px 8px 20px;
 	margin:0px 10px 0px 20px;
