@@ -1,11 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+	font-family: "ReadexPro Regular";
+	src:url("Font/ReadexPro-Regular.ttf")
+}
+
 *{
+	font-family: ReadexPro Regular;
 	padding: 0;
 	margin: 0;
 	box-sizing:border-box;
-	
 }
 
 body{
@@ -15,9 +20,7 @@ body{
 header{
 	background-color: rgba(246, 254, 255, 1);
 	padding:30px;
-	display:flex;
-	
-	
+	display:flex;	
 }
 
 nav{
@@ -65,15 +68,12 @@ li{
 }
 main{
 	height:auto;
+	height: 800px;
 }
 
 #ConteElementosCarrusel{
 	height:500px;
 	overflow: hidden;
-}
-
-main{
-	height: 800px;
 }
 
 .elementoCarrusel{
@@ -86,7 +86,6 @@ main{
 	justify-content: center;
 	align-content: center;
 	padding: 200px;
-	
 }
 
 
@@ -184,10 +183,11 @@ a{
 	color: gray;
 }
 
-footer{
+footer {
 	width: 100%;
 	background-color:rgba(129, 178, 20, 1);
 	padding: 10px 20px;
+	font-size: 12px;
 }	
 
 .elementosFooter{
@@ -199,9 +199,7 @@ footer{
 	list-style: none;
 	color: rgba(255, 255, 255, 1);
 	font-style: normal;
-	font-weight: 300;
-	font-size: 15px;
-		
+	font-weight: 300;		
 }	
 
 

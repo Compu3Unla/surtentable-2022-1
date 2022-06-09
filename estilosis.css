@@ -8,21 +8,22 @@
 
 * {
 	font-family: ReadexPro Regular;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-	background-image: url("Imagenes/FondoIS.jpg");
+	background-image: url("Imagenes/FondoIScopia.jpg");
 }
 
 h1 {
 	font-size: 45px;
-	line-height: 60px;
 	color: #DEE8E9;
-	margin: 0px 300px 20px -10px;
+	margin: 0px 400px 20px -10px;
 }
 
 .flechatras {
-	margin: 20px 0px 0px -10px;
+	margin: 0px 0px 0px -10px;
 }
 
 input {
@@ -61,23 +62,7 @@ li {
 	height: 50px;
 	font-size: 15px;
 	color: #DEE8E9;
-	margin: 65px -30px 0px 100px;
-}
-
-footer {
-	font-size: 14px;
-	width: 768px;
-	height: 28px;
-	background-color: #81B214;
-	padding: 10px;
-	color: #DEE8E9;
-	position: absolute;
-}
-
-#legales {
-	display: inline;
-	flex-direction: row;
-	background: none;
+	margin: 65px -30px 0px 060px;
 }
 
 ::placeholder{
@@ -90,14 +75,14 @@ footer {
 .inicio {
 	display: flex;
 	justify-content: space-between;
-	padding: 40px 5% 40px 5%;
-	height: 600px;
+	padding: 40px 30px 20px 30px;
+	height: 473px;
 }
 
 .empezareciclar {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content:space-between;
 }
 
 .textochico {
@@ -108,13 +93,13 @@ aside {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 10px -20px 0px 30px;
+	margin: 10px 45px 500px 0px;
 }
 
 .notenesuna {
 	display: flex;
 	justify-content:center;
-	margin: 35px 40px 200px 35px;
+	margin: 35px 40px 100px 35px;
 }
 
 #createuna {
@@ -122,4 +107,27 @@ aside {
 	line-height: 20px;
 	color: #43878D;
 	margin: -28px 0px 0px 5px;
+}
+
+footer {
+	width: 763px;
+	background-color:#81B214;
+	padding: 15px 20px 0px 0px;
+	font-size: 12px;
+}	
+
+.elementosFooter{
+	display: flex;
+}
+
+.Textoslegales{
+	display: flex;
+	list-style: none;
+	color: rgba(255, 255, 255, 1);
+	font-style: normal;
+	font-weight: 300;		
+}	
+
+.IconosRedes{
+	align-self: flex-end;
 }
