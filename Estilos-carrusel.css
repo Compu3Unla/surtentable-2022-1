@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	
+}
+
+body{
+	font-family: 'Readex Pro';
+}
+
+header{
+	background-color: rgba(246, 254, 255, 1);
+	padding:30px;
+	display:flex;
+	
+}
+
+nav{
+	width:100%;
+	height: 100%;
+	
+}
+
+.navPaginaCarrusel{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	list-style: none;
+	background-color: rgba(246, 254, 255, 1);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	color: rgba(38, 102, 107, 1);	
+	
+	
+}
+
+li{
+	padding: 0px 15px;
+}
+#IniciarSesion{
+	color:rgba(255, 255, 255, 1);
+	background: #81B214;
+	padding:0px 15px;
+	margin:0px 10px;
+	width: 150px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 40px;
+	
+}
+
+#Registrarme{
+	border: 0.5px solid #000000;
+	padding:0px 20px;
+	margin:0px 10px;
+	width: 120px;
+	box-shadow: 0px 4px 4px #000000;
+	border-radius: 40px;
+}
+main{
+	height:auto;
+}
+
+#ConteElementosCarrusel{
+	height:500px;
+	overflow: hidden;
+}
+
+main{
+	height: 800px;
+}
+
+.elementoCarrusel{
+	height: 100%;
+	position: relative;
+}
+
+.imagenCarrusel{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 200px;
+	
+}
+
+
+.flechasCarrusel{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+#imagenCarrusel-1{
+	background-image: url("Imagenes/FondoBienvenida.png");
+	background-repeat: no-repeat;
+	height: auto;
+	width: auto;
+}
+
+#imagenCarrusel-2{
+	background-image: url("Imagenes/FondoMapa.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#imagenCarrusel-3{
+ 	background-image: url("Imagenes/FondoTips.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#imagenCarrusel-4{
+ 	background-image: url("Imagenes/FondoBeneficios.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+
+.elementoCarrusel{
+	font-family: 'Readex Pro';
+	color:white;
+	display: flex;
+	flex-direction: column;
+		
+}
+
+.TextoIconos{
+	margin-left: 40px;
+	width: 1000px;
+	
+}
+
+.TitulosCarrusel{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 30px;
+	
+}
+
+p{
+	font-size: 21px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#ContenedorPuntos {
+	display: flex;
+	justify-content: center;
+	
+}
+
+#ContenedorPuntos > a{
+	font-size:20px;
+	padding: 10px;
+	color: gray;
+}
+
+footer{
+	width: 100%;
+	background-color:rgba(129, 178, 20, 1);
+	padding: 10px 20px;
+}	
+
+.elementosFooter{
+	display: flex;
+}
+
+.Textoslegales{
+	display: flex;
+	list-style: none;
+	color: rgba(255, 255, 255, 1);
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+		
+}	
+
+
+.IconosRedes{
+	align-self: flex-end;
+}
