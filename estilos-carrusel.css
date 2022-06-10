@@ -56,12 +56,12 @@ a {
 }
 
 #Registrarme{
-	border: 0.5px solid #43878D;
 	padding: 8px 8px 8px 25px;
 	margin:0px 10px;
 	width: 120px;
-	box-shadow: 0px 3px 3px #43878D;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 40px;
+	background-color: #43878D;
 }
 
 #ConteElementosCarrusel{
@@ -114,19 +114,19 @@ a {
 }
 
 #iconocarrusel1 {
-	margin: -60px 0px 0px 0px;
+	margin: -70px 0px 0px 0px;
 }
 
 #iconocarrusel2 {
-	margin: -60px -18px 0px -50px;
+	margin: -70px -18px 0px -50px;
 }
 
 #iconocarrusel3 {
-	margin: -60px -6px  0px -30px;
+	margin: -70px -6px  0px -30px;
 }
 
 #iconocarrusel4 {
-	margin: -60px 0px 0px -35px;
+	margin: -70px 0px 0px -25px;
 }
 
 .elementoCarrusel{
@@ -137,7 +137,7 @@ a {
 
 .TextoIconos{
 	margin-left: 40px;
-	width: 1000px;
+	width: 520px;
 	display: flex;
 	flex-direction: column;
 }
@@ -146,22 +146,18 @@ a {
 	font-size: 38px;
 	margin: -52px 0px 20px 0px;
 	width: 500px;
-	line-height: 40px;
+	line-height: 41px;
 }
 
 #descubrelospuntos {
 	font-size: 38px;
 	margin: -52px 0px 20px 0px;
 	width: 400px;
-	line-height: 40px;
+	line-height: 41px;
 }
 
 p{
-	font-size: 18px;
-}
-
-a{
-	text-decoration: none;
+	font-size: 15px;
 }
 
 #CrearCuentaCarrusel{
@@ -170,10 +166,10 @@ a{
 	width: 150px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 40px;
-	padding: 10px 10px 10px 25px;
-	margin: 80px 155px 0px 0px;
+	padding: 10px 10px 10px 30px;
+	margin: 80px 175px 0px 0px;
 	align-self: center;
-	
+	font-size: 15px;	
 }
 
 #ContenedorPuntos {
@@ -191,7 +187,7 @@ a{
 footer {
 	width: 1278px;
 	background-color:rgba(129, 178, 20, 1);
-	padding: 10px 0px 1px 0px;
+	padding-top: 9px;
 	font-size: 12px;
 }	
 
@@ -207,5 +203,5 @@ footer {
 
 .iconosfooter {
 	align-self: flex-end;
-	margin: -2px 0px 2px 670px;
+	margin: -2px 0px 2px 640px;
 }
