@@ -15,6 +15,7 @@
 body {
 	background-image: url("Imagenes/FondoIScopia.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -136,25 +137,27 @@ a {
 	margin: -10px 0px 0px -25px;
 }
 
+
 footer {
-	width: 753px;
+	width: 100%;
 	background-color:#81B214;
 	padding: 14px 20px 0px 10px;
 	font-size: 12px;
-}	
-
-.elementosFooter{
 	display: flex;
-}
+	justify-content: space-between;
+	position:absolute;
+	bottom:0;
+	
+}	
 
 .Textoslegales{
 	display: flex;
 	list-style: none;
 	color: #F6FEFF;	
+	margin-left: 15px;
 }	
 
 .iconosfooter {
-	align-self: flex-end;
-	margin: -6px 0px 4px 150px;
-	padding: 3px;
+	margin: -5px 25px 5px 10px;
+
 }
