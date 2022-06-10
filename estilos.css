@@ -14,7 +14,9 @@
 
 body {
 	background-image: url("Imagenes/FondoIScopia.jpg");
+	background-repeat: no-repeat;
 }
+
 
 h1 {
 	font-size: 45px;
@@ -30,10 +32,10 @@ input {
 	border: 2px solid #43878D;
 	border-radius: 40px;
 	width: 350px;
-	height: 35px;
+	height: 25px;
 	padding-left: 10px;
 	background-color: #DEE8E9;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 label {
@@ -52,7 +54,7 @@ li {
 	font-size: 12px;
 	line-height: 20px;
 	color: #81B214;
-	margin: -28px 0px 60px -8px;
+	margin: -10px 0px 60px -8px;
 }
 
 ::placeholder{
@@ -70,31 +72,48 @@ li {
 }
 
 #logo {
-	margin: 0px 0px 50px 80px;
+	margin: -20px 0px 30px 90px;
 }
 
 aside {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 20px 45px 100px 0px;
+	margin: 20px 45px 2px 0px;
 }
 
 a {
+	text-decoration: none;
+}
+
+#botoniniciosesion {
 	text-decoration:  none;
 	background: #81B214;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 45px;
 	font-size: 15px;
 	color: #DEE8E9;
-	margin: 820px 70px 120px 75px;
+	margin-left: 75px;
+	padding: 15px 60px 15px 60px;
+}
+
+#botoncrearcuenta {
+	width: 100px;
+	margin-top: 30px;
+	text-decoration:  none;
+	background: #81B214;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 45px;
+	font-size: 15px;
+	color: #DEE8E9;
+	margin-left: 85px;
 	padding: 15px 60px 15px 60px;
 }
 
 .notenesuna {
 	display: flex;
 	justify-content:center;
-	margin: 50px 10px 0px 15px;
+	margin: 35px 10px 0px 15px;
 }
 
 #createuna {
@@ -102,13 +121,13 @@ a {
 	font-size: 12px;
 	line-height: 20px;
 	color: #43878D;
-	margin: -28px 0px 0px -25px;
+	margin: -10px 0px 0px -25px;
 }
 
 footer {
 	width: 753px;
 	background-color:#81B214;
-	padding: 15px 20px 2px 10px;
+	padding: 14px 20px 0px 10px;
 	font-size: 12px;
 }	
 
@@ -124,6 +143,6 @@ footer {
 
 .iconosfooter {
 	align-self: flex-end;
-	margin: -6px 0px 6px 150px;
+	margin: -6px 0px 4px 150px;
 	padding: 3px;
 }
