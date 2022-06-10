@@ -19,11 +19,11 @@ body {
 h1 {
 	font-size: 45px;
 	color: #DEE8E9;
-	margin: 0px 400px 20px -10px;
+	margin: 300px 400px 20px 10px;
 }
 
 .flechatras {
-	margin: 0px 0px 0px -10px;
+	margin: 0px 0px 0px 10px;
 }
 
 input {
@@ -53,18 +53,6 @@ li {
 	color: #81B214;
 }
 
-#botoninicio {
-	background: #81B214;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-	border-radius: 40px;
-	border: none;
-	width: 250px;
-	height: 50px;
-	font-size: 15px;
-	color: #DEE8E9;
-	margin: 65px -30px 0px 060px;
-}
-
 ::placeholder{
 	color: #81B214;
 	font-size: 12px;
@@ -79,27 +67,36 @@ li {
 	height: 473px;
 }
 
-.empezareciclar {
-	display: flex;
-	flex-direction: column;
-	justify-content:space-between;
+.textochico {
+	margin: -28px 0px 60px 10px;
 }
 
-.textochico {
-	margin: -28px 0px 0px 10px;
+#logo {
+	margin: 0px 0px 50px 80px;
 }
 
 aside {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 10px 45px 500px 0px;
+	margin: 20px 45px 100px 0px;
+}
+
+a {
+	text-decoration:  none;
+	background: #81B214;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 45px;
+	font-size: 15px;
+	color: #DEE8E9;
+	margin: 820px 70px 120px 75px;
+	padding: 15px 60px 15px 60px;
 }
 
 .notenesuna {
 	display: flex;
 	justify-content:center;
-	margin: 35px 40px 100px 35px;
+	margin: 50px 40px 0px 35px;
 }
 
 #createuna {
