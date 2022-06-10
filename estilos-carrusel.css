@@ -8,15 +8,15 @@
 
 *{
 	font-family: ReadexPro Regular;
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 	box-sizing:border-box;
 }
 
 header{
-	background-color: rgba(246, 254, 255, 1);
 	padding: 8px 12px 12px 12px;
 	display: flex;
+	background-color: #F6FEFF;
 }
 
 nav{
@@ -30,10 +30,10 @@ nav{
 	justify-content: flex-end;
 	align-items: center;
 	list-style: none;
-	background-color: rgba(246, 254, 255, 1);
+	background-color: #F6FEFF;
 	font-style: normal;
 	font-size: 12px;
-	color: rgba(38, 102, 107, 1);
+	color: #43878D;
 	margin: -40px 0px 0px 0px;
 }
 
@@ -43,7 +43,7 @@ li{
 
 a {
 	text-decoration: none;
-	color: #D3DBDC;
+	color: #F6FEFF;
 }
 
 #IniciarSesion{
@@ -56,11 +56,11 @@ a {
 }
 
 #Registrarme{
-	border: 0.5px solid #000000;
+	border: 0.5px solid #43878D;
 	padding: 8px 8px 8px 25px;
 	margin:0px 10px;
 	width: 120px;
-	box-shadow: 0px 3px 3px rgba(31, 44, 4, 0.46);
+	box-shadow: 0px 3px 3px #43878D;
 	border-radius: 40px;
 }
 
@@ -130,7 +130,7 @@ a {
 }
 
 .elementoCarrusel{
-	color: #D3DBDC;
+	color: #F6FEFF;
 	display: flex;
 	flex-direction: column;	
 }
@@ -165,7 +165,7 @@ a{
 }
 
 #CrearCuentaCarrusel{
-	color:#D3DBDC;
+	color: #F6FEFF;
 	background: #81B214;
 	width: 150px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
