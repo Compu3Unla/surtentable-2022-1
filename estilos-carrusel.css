@@ -172,7 +172,7 @@ p{
 	font-size: 15px;
 }
 
-#CrearCuentaCarrusel{
+#crearcuentacarrusel{
 	color: #F6FEFF;
 	background: #81B214;
 	width: 150px;
@@ -188,6 +188,10 @@ p{
 	display: flex;
 	justify-content: center;
 	
+}
+
+#ContenedorPuntos a:hover{
+	color: #0F4104;
 }
 
 #ContenedorPuntos a{
