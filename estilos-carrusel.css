@@ -46,6 +46,14 @@ a {
 	color: #F6FEFF;
 }
 
+#IniciarSesion:hover{
+	background-color: #0F4104;
+}
+
+#Registrarme:hover{
+	background-color: #0E545A;
+}
+
 #IniciarSesion{
 	background: #81B214;
 	padding: 8px 8px 8px 20px;
@@ -53,6 +61,7 @@ a {
 	width: 120px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 40px;	
+	transition: background-color .5s;
 }
 
 #Registrarme{
@@ -62,16 +71,18 @@ a {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 40px;
 	background-color: #43878D;
+	transition: background-color .5s;
 }
 
 #ConteElementosCarrusel{
 	height: 425px;
 	overflow: hidden;
+	
 }
 
 .elementoCarrusel{
 	height: 100%;
-	position: relative;
+	position: relative;	
 }
 
 .imagenCarrusel{
@@ -91,6 +102,7 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px;
+	
 }
 
 #imagenCarrusel-1{

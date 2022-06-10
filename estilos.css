@@ -87,6 +87,10 @@ a {
 	color: #43878D;
 }
 
+#botoniniciosesion:hover{
+	background-color: #0F4104;
+}
+
 #botoniniciosesion {
 	text-decoration:  none;
 	background: #81B214;
@@ -96,6 +100,11 @@ a {
 	color: #DEE8E9;
 	margin-left: 75px;
 	padding: 15px 60px 15px 60px;
+	transition: background-color .5s;
+}
+
+#botoncrearcuenta:hover{
+	background-color: #0F4104;
 }
 
 #botoncrearcuenta {
@@ -109,6 +118,7 @@ a {
 	color: #DEE8E9;
 	margin-left: 85px;
 	padding: 15px 60px 15px 60px;
+	transition: background-color .5s;
 }
 
 .notenesuna {
@@ -116,6 +126,7 @@ a {
 	justify-content:center;
 	margin: 35px 10px 0px 15px;
 }
+
 
 #createuna {
 	text-decoration: none;
