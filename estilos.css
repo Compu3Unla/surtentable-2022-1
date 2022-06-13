@@ -19,9 +19,12 @@
 }
 
 header{
-	padding: 8px 12px 12px 12px;
+	padding: 8px 12px 0px 12px;
 	display: flex;
 	background-color: #F6FEFF;
+	border-bottom: solid;
+	border-bottom-color: #43878D;
+	border-bottom-width: thin;
 }
 
 nav{
@@ -41,6 +44,13 @@ nav{
 	margin: -40px 0px 0px 0px;
 }
 
+iframe {
+	border-radius: 25px;
+	width: 75%;
+	height: 380px;
+	display: block;
+	margin: 30px auto;
+}
 
 h1 {
 	font-size: 45px;
@@ -147,7 +157,7 @@ a {
 
 .notenesuna {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	margin: 0px 10px 20px 15px;
 }
 
