@@ -196,7 +196,6 @@ footer {
 .tipscentral{
 	display: flex;
 	justify-content: center;
-	
 }
 
 h2{
@@ -206,11 +205,11 @@ h2{
 	text-align: center;
 }
 
-
 .tipscocina{
 	display: flex;
 	justify-content: center;
 }
+
 
 h3{
 	font-size: 18px;
