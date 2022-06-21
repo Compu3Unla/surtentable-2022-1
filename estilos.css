@@ -279,3 +279,23 @@ h3{
 	height: 350px;
 	position: relative;
 }
+#botoncompartitufoton:hover{
+	background-color: #0F4104;
+}
+#botonerafoto{
+	margin-top: 50px;
+}
+#botoncompartitufoto {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	margin: 0 auto;
+	text-decoration: none;
+	background: #81B214;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 45px;
+	font-size: 15px;
+	color: #DEE8E9;
+	padding: 15px 60px 15px 60px;
+	transition: background-color .5s;
+}
