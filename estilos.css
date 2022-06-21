@@ -52,7 +52,7 @@ iframe {
 	margin: 30px auto;
 }
 
-h1 {
+.titulogrande {
 	font-size: 45px;
 	color: #DEE8E9;
 	margin: 300px 400px 20px 10px;
@@ -233,4 +233,49 @@ h2{
 
 h3{
 	font-size: 18px;
+}
+#titulogaleria{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: 50px;
+	color: #43878D;
+}
+#contenedorcarrusel{
+	height: 350px;
+	overflow: hidden; 
+	width: 100%;
+	
+}
+#headergaleria{
+	position: relative;
+}
+.flechahome{
+	position: absolute;
+	top:12%;
+	left: 20px;
+}
+.flechascarrusel{
+	height: 100%;
+	position: absolute;
+	top:0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flechaD{
+	padding-right: 500px;
+}
+.flechaI{
+	padding-left: 500px;
+}
+.tarjetacarrusel{
+	display: flex;
+	justify-content: center;
+}
+.itemcarrusel{
+	height: 350px;
+	position: relative;
 }
