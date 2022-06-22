@@ -68,7 +68,7 @@ input {
 	width: 350px;
 	height: 25px;
 	padding-left: 10px;
-	background-color: #DEE8E9;
+	background-color: #F6FEFF;
 	margin-bottom: 8px;
 }
 
@@ -95,7 +95,7 @@ li {
 	color: #81B214;
 	font-size: 12px;
 	opacity: 50%;
-	background-color: #DEE8E9;
+	background-color: #F6FEFF;
 }
 
 .inicio {
@@ -131,7 +131,7 @@ a {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 45px;
 	font-size: 15px;
-	color: #DEE8E9;
+	color: #F6FEFF;
 	margin-left: 75px;
 	padding: 15px 60px 15px 60px;
 	transition: background-color .5s;
@@ -149,7 +149,7 @@ a {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 45px;
 	font-size: 15px;
-	color: #DEE8E9;
+	color: #F6FEFF;
 	margin-left: 85px;
 	padding: 15px 60px 15px 60px;
 	transition: background-color .5s;
@@ -295,7 +295,7 @@ h3{
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
 	border-radius: 45px;
 	font-size: 15px;
-	color: #DEE8E9;
+	color: #F6FEFF;
 	padding: 15px 60px 15px 60px;
 	transition: background-color .5s;
 }
@@ -310,7 +310,8 @@ h3{
 	width: 80%;
 	height: auto;
 	margin: 0 auto;
-	border: 5px solid #43878D;
+	border: 3px solid #43878D;
+	border-radius: 40px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -324,7 +325,6 @@ form div{
 input{
 	width: 100%;
 	height: 30px;
-	font-family: Century Gothic, sans-serif; 
 	font-size: 13px;
 	
 }
@@ -333,16 +333,17 @@ input{
 	width: 30%;
 }
 textarea{
-	border: 5px solid #43878D;
+	border: 3px solid #43878D;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	height: 80%;
+	border-radius: 20px;
+	padding: 10px;
 }
 label{
 	display: block;
 	height: 25px;
-	padding-top: 10px;
-	font-family: Century Gothic, sans-serif; 
+	padding-top: 10px; 
 	font-size: 20px;
 }
