@@ -197,13 +197,7 @@ footer {
 	justify-content: center;
 }
 
-.tipshigiene{
-	height: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin:20px;
-}
+
 
 #tipshigiene p{
 	color: #43878D;
@@ -402,13 +396,21 @@ h3{
 	opacity: 1;
 	visibility: visible;
 }
-
-.contenedor{
-	width:100%;
+.tipshigiene{
+	height: 100%;
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin:20px;
+}
+.contenedor{
+	width: 1280px;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	margin: auto 10px;
 }
 
 .contenedor figure{
