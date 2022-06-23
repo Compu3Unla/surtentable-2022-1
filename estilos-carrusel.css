@@ -33,7 +33,7 @@ nav{
 	font-style: normal;
 	font-size: 12px;
 	color: #43878D;
-	margin: -40px 0px 0px 0px;
+	margin-bottom: 8px;
 }
 
 li{
@@ -50,7 +50,7 @@ a {
 }
 
 #registrarme:hover{
-	background-color: #0E545A;
+	background-color: #032B2E;
 }
 
 #iniciarsesion{
@@ -58,7 +58,7 @@ a {
 	padding: 8px 8px 8px 20px;
 	margin:0px 10px 0px 20px;
 	width: 120px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 3px 6px #0F4104;
 	border-radius: 40px;	
 	transition: background-color .5s;
 }
@@ -67,15 +67,14 @@ a {
 	padding: 8px 8px 8px 25px;
 	margin:0px 10px;
 	width: 120px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 3px 6px #032B2E;
 	border-radius: 40px;
 	background-color: #43878D;
 	transition: background-color .5s;
 }
 
 .slider{
-	width:95%;
-	margin: auto;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -83,8 +82,7 @@ a {
 	display: flex;
 	padding: 0;
 	width: 400%;
-	
-	animation: cambio 32s infinite alternate ease-in ;
+	animation: cambio 45s infinite alternate ease-in;
 }
 
 .slider li{
@@ -107,8 +105,7 @@ a {
 	70%{margin-left:-200%;}
 	
 	75%{margin-left:-300%;}
-	100%{margin-left:-300%;}
-		
+	100%{margin-left:-300%;}	
 }
 
 /*#ConteElementosCarrusel{
@@ -258,9 +255,8 @@ footer {
 	font-size: 12px;
 	display: flex;
 	justify-content: space-between;
-	/*position: absolute;
+	position: absolute;
 	bottom: 0;
-*/
 }	
 
 .textoslegales{
