@@ -7,9 +7,43 @@
 	.st1{fill:#43878D;}
 	.st2{font-family:'ReadexPro-Medium';}
 	.st3{font-size:12px;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:5.0338,5.0338;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:5;}
 </style>
-<image style="overflow:visible;enable-background:new    ;" width="250" height="188" xlink:href="157EE9FE.jpg"  transform="matrix(0.92 0 0 0.92 0 -0.4794)">
-</image>
 <rect y="172" class="st0" width="230" height="37"/>
 <text transform="matrix(1 0 0 1 77.7222 194.9201)" class="st1 st2 st3">Pañal de tela</text>
+<image style="overflow:visible;" width="249" height="187" xlink:href="fondo tips.png"  transform="matrix(0.9237 0 0 0.9237 0 0)">
+</image>
+<g>
+	<polyline class="st4" points="29.8,45.2 29.8,35.4 171.5,35.4 171.5,45.2 	"/>
+	<path class="st4" d="M31.6,72.4c0,0,4,73.3,69.1,74.8c65.1,1.5,70.9-74.8,70.9-74.8"/>
+	<path class="st4" d="M34,87.4c0,0,20.8-5.9,38.1,9.9s11.3,47.5,11.3,47.5"/>
+	<path class="st4" d="M25.3,45.2v27.2c0,0,49.8,6.8,49.8-13.6S25.3,45.2,25.3,45.2z"/>
+	<path class="st4" d="M168,87.4c0,0-20.8-5.9-38.1,9.9s-11.3,47.5-11.3,47.5"/>
+	<g>
+		<g>
+			<path class="st4" d="M34,82c0,0,0.9-0.3,2.4-0.5"/>
+			<path class="st5" d="M41.5,80.9c8.3-0.5,22.2,0.7,34.4,12C90.4,106.3,90,129.8,89,140.1"/>
+			<path class="st4" d="M88.7,142.6c-0.2,1.6-0.4,2.5-0.4,2.5"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M168,82c0,0-0.9-0.3-2.4-0.5"/>
+			<path class="st5" d="M160.5,80.9c-8.3-0.5-22.2,0.7-34.4,12c-14.6,13.4-14.1,36.9-13.1,47.2"/>
+			<path class="st4" d="M113.3,142.6c0.2,1.6,0.4,2.5,0.4,2.5"/>
+		</g>
+	</g>
+	<line class="st4" x1="50.2" y1="45.2" x2="50.2" y2="72.4"/>
+	<path class="st4" d="M169.8,45.2v27.2c0,0,49.8,6.8,49.8-13.6S169.8,45.2,169.8,45.2z"/>
+	<line class="st4" x1="194.7" y1="45.2" x2="194.7" y2="72.4"/>
+	<circle class="st4" cx="61.7" cy="59" r="4.9"/>
+	<circle class="st4" cx="205.9" cy="59" r="4.9"/>
+	<circle class="st6" cx="205.9" cy="59" r="1.9"/>
+	<circle class="st4" cx="130.6" cy="59" r="4.9"/>
+	<circle class="st6" cx="130.6" cy="59" r="1.9"/>
+	<line class="st7" x1="29.6" y1="40.2" x2="171.3" y2="40.2"/>
+</g>
 </svg>

@@ -7,9 +7,43 @@
 	.st1{fill:#43878D;}
 	.st2{font-family:'ReadexPro-Medium';}
 	.st3{font-size:12px;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 </style>
-<image style="overflow:visible;enable-background:new    ;" width="250" height="188" xlink:href="DD2070F1.jpg"  transform="matrix(0.92 0 0 0.92 0 0)">
-</image>
 <rect y="173" class="st0" width="230" height="37"/>
 <text transform="matrix(1 0 0 1 31.2886 195.9201)" class="st1 st2 st3">Cepillo de dientes de bambu</text>
+<image style="overflow:visible;" width="249" height="187" xlink:href="fondo tips.png"  transform="matrix(0.9237 0 0 0.9165 0 0)">
+</image>
+<g>
+	<line class="st4" x1="134.1" y1="59.8" x2="138.1" y2="73.6"/>
+	<line class="st4" x1="138.9" y1="59.5" x2="143.3" y2="73.9"/>
+	<line class="st4" x1="157.1" y1="68.9" x2="151.5" y2="54.8"/>
+	<line class="st4" x1="143.1" y1="57.3" x2="147.8" y2="72.3"/>
+	<line class="st4" x1="163.6" y1="50.8" x2="167.5" y2="60.7"/>
+	<line class="st4" x1="159.8" y1="51.7" x2="165" y2="64.1"/>
+	<path class="st5" d="M80.7,87.6c0,0,7.7,5.1,5.1,12.5"/>
+	<path class="st5" d="M131.9,69.6c0,0,0.4,6.6,20.1,1.9s17.4-15.6,17.4-15.6s5-1.7,4.2,6.4s-20.5,14.3-31.3,14.3
+		c-10.8,0-51.8,21.2-69.9,30.5s-50.2,21.3-56.8,17.4c-3.9-2.3-4.6-10.8,7-14.7S80.9,85.8,89,85.8S117.2,80.8,131.9,69.6z"/>
+	<path class="st5" d="M166.3,47c0.6,1.7-7,5.8-16.9,9s-19.7,5-20.3,3.3s8.3-6.4,18.2-9.6S165.7,45.2,166.3,47z"/>
+	<line class="st5" x1="132.1" y1="68.9" x2="129.6" y2="60.7"/>
+	<line class="st5" x1="169.4" y1="56.7" x2="166.8" y2="48.2"/>
+	<path class="st5" d="M162.8,81.3c0,0-2.9,0.3-2.9-2.4c0-2.7,0-5.7,0-5.7l7-3.1h50.9c0,0,5.3-1.4,5.3,5.6s-5,5.6-5,5.6L162.8,81.3z"
+		/>
+	<path class="st5" d="M199.7,125.2h-17.1c-10.4,0-18.9-8.4-18.9-18.9V81.4h54.9v24.9C218.5,116.7,210.1,125.2,199.7,125.2z"/>
+	<path class="st5" d="M163.4,92.8c2.3,0.3,2.7-1.8,4.6-2.1c2-0.2,2.7,1.7,4.2,2.4c1.8,0.9,4.5,0.1,6-1.1c2.2-1.7,3.3-2.2,6.2-1.1
+		c2.1,0.8,3.7,2.5,5.9,3c2.8,0.7,3.1-1.3,5.1-2.5c1.8-1,4.9-0.5,6.5,0.5c2.5,1.6,3.4,2.6,6.3,1.1c2.7-1.4,3.1-2.8,6.2-1.3
+		c1.2,0.6,1.3,1,2.2,1.8c0.5,0.4,1.8,0.8,2.1,1.5"/>
+	<path class="st6" d="M192,119.9h-2.2c-10,0-18.1-8.1-18.1-18.1v-3.2h38.5v3.2C210.1,111.8,202,119.9,192,119.9z"/>
+	<line class="st6" x1="218.7" y1="69.9" x2="218.7" y2="81.3"/>
+	<line class="st6" x1="210.8" y1="70" x2="210.8" y2="81.3"/>
+	<line class="st6" x1="203" y1="70.1" x2="203" y2="81.3"/>
+	<line class="st6" x1="195.2" y1="69.9" x2="195.2" y2="81.3"/>
+	<line class="st6" x1="187.3" y1="70" x2="187.3" y2="81.3"/>
+	<line class="st6" x1="180" y1="70.1" x2="180" y2="81.4"/>
+	<line class="st6" x1="171.9" y1="69.9" x2="171.9" y2="81.3"/>
+	<line class="st6" x1="164" y1="71" x2="164" y2="81.3"/>
+	<line class="st4" x1="147.5" y1="56.1" x2="152.6" y2="70.6"/>
+	<line class="st4" x1="156.3" y1="54" x2="162.1" y2="67.8"/>
+</g>
 </svg>
