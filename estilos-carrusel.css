@@ -256,7 +256,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
-	bottom: 0;
+	bottom: 0 !important;
 }	
 
 .textoslegales{
