@@ -6,6 +6,22 @@
 	src:url("Font/ReadexPro-Regular.ttf")
 }
 
+@font-face {
+	font-family: "ReadexPro Bold"; src:url("font/ReadexPro-Bold.ttf")
+}
+
+@font-face {
+	font-family: "ReadexPro Semibold"; src:url("font/ReadexPro-SemiBold.ttf")
+}
+
+@font-face {
+	font-family: "ReadexPro Medium"; src:url("font/ReadexPro-Medium.ttf")
+}
+
+@font-face {
+	font-family: "ReadexPro Light"; src:url("font/ReadexPro-Light.ttf")
+}
+
 * {
 	font-family: ReadexPro Regular;
 	margin: 0px;
@@ -13,7 +29,7 @@
 }
 
 #fondobody{
-	background-image: url(img/Fondoinicio.jpg);
+	background-image: url(img/fondoinicio.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -54,7 +70,7 @@ iframe {
 
 .titulogrande {
 	font-size: 45px;
-	color: #DEE8E9;
+	color: #F6FEFF;
 	margin: 300px 400px 20px 10px;
 }
 
@@ -445,7 +461,7 @@ h3{
 }
 
 .contenedor figure .capa p{
-	color: #fff;
+	color: #F6FEFF;
 	font-size: 15px;
 	padding: 10px;
 	display: flex;
