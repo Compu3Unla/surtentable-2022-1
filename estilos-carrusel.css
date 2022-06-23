@@ -82,12 +82,7 @@ a {
 	display: flex;
 	padding: 0;
 	width: 400%;
-<<<<<<< HEAD
 	animation: cambio 45s infinite alternate ease-in;
-=======
-	
-	animation: cambio 32s infinite alternate ease-in ;
->>>>>>> origin/main
 }
 
 .slider li{
@@ -260,9 +255,8 @@ footer {
 	font-size: 12px;
 	display: flex;
 	justify-content: space-between;
-	/*position: absolute;
+	position: absolute;
 	bottom: 0;
-*/
 }	
 
 .textoslegales{
