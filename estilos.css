@@ -911,5 +911,83 @@ footer {
 		margin: 0 auto;
 
 	}
+
+/* -------------beneficios------------- */
+
+.altura {
+	height: 100vh;
+}
+
+.perfilusuario {
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.soloperfil {
+	width: 90%;
+}
+
+.estadisticas {
+	font-size: 15px;
+	line-height: 17px;
+}
+
+.objetivos {
+	width: 90%;
+	margin-top: 6%;
+}
+
+.objetivosdenivel {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.beneficiosactuales {
+	margin-bottom: 10%;
+	margin-top: 4%;
+}
+
+.h4descuentospornivel {
+	margin-top: 10%;
+}
+
+.porcentaje {
+	font-size: 15px;
+}
+
+.bloqueproximos {
+	margin-top: 4%;
+}
+
+.proximo1 {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	border: 1px solid #43878D;
+	border-radius: 20px 20px 0px 0px;
+	padding: 2%;
+}
+
+.proximo2 {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	border: 1px solid #43878D;
+	padding: 2%;
+}
+
+.proximo3 {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	border: 1px solid #43878D;
+	padding: 2%;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.escanear {
+	margin-top: 8%;
+}
+
 }
 /* -------------cierre------------- */
