@@ -26,7 +26,7 @@
 
 /* -------------carrusel------------- */
 
-.navcarrusel{
+.navcarrusel, .contactanos{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -37,6 +37,7 @@
 	color: #43878D;
 	margin-bottom: 8px;
 }
+
 
 #registrarme a {
 	color: #F6FEFF !important;
@@ -149,7 +150,10 @@ nav{
 	width: 100%;
 	align-self: flex-end;	
 }
-
+#navprincipal{
+	display: flex;
+	justify-content: flex-end;
+}
 .navpaginacarrusel{
 	display: flex;
 	justify-content: flex-end;
@@ -761,5 +765,20 @@ footer {
 .iconosfooter {
 	margin: -2px 25px 2px 10px;
 }
-
+@media screen and (max-width: 600px){
+#navprincipal{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+	top: 0;
+	
+}
+	.contactanos{
+	display: none;
+	}
+	header{
+	padding: 8px 12px 8px 12px;
+	}
+}
 /* -------------cierre------------- */
