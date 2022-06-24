@@ -222,7 +222,7 @@ a {
 	justify-content: center;
 	font-size: 36px;
 	color: #81B214;
-	margin: 100px 20px 50px 20px;
+	margin: 70px 20px 50px 20px;
 }
 
 #titulogrande{
@@ -431,9 +431,16 @@ h3{
 .tipshigiene{
 	height: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	margin:20px;
+}
+.trestips{
+	display: flex;
+	width: 70%;
+	margin: 10px;
+	
 }
 .contenedor{
 	width: 1280px;
@@ -447,8 +454,8 @@ h3{
 
 .contenedor figure{
 	position: relative;
-	height: 250px;
-	width:230px;
+	height: 230px;
+	width:250px;
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -499,7 +506,9 @@ iframe {
 .perfilusuario {
 	display: flex;
 	margin: 20px;
+	justify-content: center;
 }
+
 .nombreusuario {
 	display: flex;
 	flex-direction: column;
@@ -515,8 +524,44 @@ iframe {
 	display: flex;
 }
 
-.proximosbeneficios {
-	
+.bloqueproximos {
+	display: flex;
+	flex-direction: column;
+}
+
+.proximo {
+	display: flex;
+}
+
+.inputescanear[type="file"] {
+    display: none;
+}
+
+.labelescanear {
+	text-decoration:  none;
+	background: #81B214;
+	box-shadow: 0px 3px 6px #0F4104;
+	border-radius: 45px;
+	border: none;
+	font-size: 15px;
+	color: #F6FEFF;
+	margin-left: 75px;
+	display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+	transition: background-color .5s;
+}
+
+.labelescanear:hover {
+	background-color: #0F4104;
+}
+
+.inputsubirfotoperfil[type="file"] {
+    display: none;
+}
+
+.labelsubirfotoperfil {
+	cursor: pointer;
 }
 
 /* -------------footer------------- */

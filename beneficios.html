@@ -20,9 +20,10 @@
 			</nav>
 		</header>
 		<section class="perfilusuario">
-			<article>
-				<img src="img/157EE9FE.jpg" width="130px" alt="foto del usuario">
-			</article>
+			<form class="fotoperfil" method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
+				<label class="labelsubirfotoperfil" for="archivoss"><img src="img/fotodeperfil.svg" width="100px" height="100px" alt="foto del usuario"></label>
+				<input class="inputsubirfotoperfil" type="file" name="archivos" id="archivoss">
+			</form>
 			<article class="nombreusuario">
 				<h3>Nombre de usuario</h3>
 				<ul class="estadisticas">
@@ -39,7 +40,10 @@
 				</ul>
 			</aside>
 		</section>
-		<h3>Escanea el código del punto verde</h3>
+		<form class="escanear" method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
+			<label class="labelescanear" for="archivos">Escanear código del punto verde</label>
+			<input class="inputescanear" type="file" name="archivos" id="archivos">
+		</form>
 		<h3>Descuento de por nivel</h3>
 		<section class="beneficiosactuales">
 			<article class="beneficio1">
@@ -58,19 +62,19 @@
 		<section class="proximosbeneficios">
 			<p>Beneficios de los próximos niveles</p>
 			<article class="bloqueproximos">
-				<div class="proximo1">
+				<div class="proximo">
 					<div class="prox1candado">
 						<p>Ofertas exclusivas</p>
 					</div>
 					<p>Nivel 2</p>
 				</div>
-				<div class="proximo2">
+				<div class="proximo">
 					<div class="prox2candado">
 						<p>Descuentos sorpresa en tus marcas favoritas</p>
 					</div>
 					<p>Nivel 3</p>
 				</div>
-				<div class="proximo3">
+				<div class="proximo">
 					<div class="prox3candado">
 						<p>Descuentos con tus pagos con QR en locales seleccionados</p>
 					</div>
