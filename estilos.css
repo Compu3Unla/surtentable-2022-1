@@ -278,6 +278,14 @@ a {
 	position: relative;
 }
 
+/* -------------form------------- */
+
+#bodyform {
+	background-image: url("img/fondoformulario.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #botonerafoto {
 	width: 100%;
 	text-align: center;
@@ -302,6 +310,7 @@ a {
 
 
 .formcontacto {
+	background-color: #F6FEFF;
 	width: 50%;
 	height: auto;
 	margin: 0 auto;
