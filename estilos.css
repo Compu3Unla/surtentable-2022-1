@@ -1,10 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* -------------fuentes------------- */
+
 @font-face {
 	font-family: "ReadexPro Regular";
 	src:url("Font/ReadexPro-Regular.ttf")
 }
+
+@font-face {
+	font-family: "ReadexPro Bold"; src:url("font/ReadexPro-Bold.ttf")
+}
+
+@font-face {
+	font-family: "ReadexPro Semibold"; src:url("font/ReadexPro-SemiBold.ttf")
+}
+
+@font-face {
+	font-family: "ReadexPro Medium"; src:url("font/ReadexPro-Medium.ttf")
+}
+
+@font-face {
+	font-family: "ReadexPro Light"; src:url("font/ReadexPro-Light.ttf")
+}
+
+/* -------------general------------- */
 
 * {
 	font-family: ReadexPro Regular;
@@ -12,10 +32,8 @@
 	padding: 0px;
 }
 
-#fondobody{
-	background-image: url(img/Fondoinicio.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+body {
+	background-color: #F6FEFF;
 }
 
 header{
@@ -44,25 +62,24 @@ nav{
 	margin: -40px 0px 0px 0px;
 }
 
-iframe {
-	border-radius: 25px;
-	width: 75%;
-	height: 380px;
-	display: block;
-	margin: 30px auto;
-}
-
 .titulogrande {
 	font-size: 45px;
-	color: #DEE8E9;
-	margin: 300px 400px 20px 10px;
+	color: #F6FEFF;
 }
 
 .flechatras {
 	margin: 0px 0px 0px 10px;
 }
 
-input {
+/* -------------inicio de sesión------------- */
+
+#fondobody{
+	background-image: url(img/fondoinicio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inputinicio {
 	border: 2px solid #43878D;
 	border-radius: 40px;
 	width: 350px;
@@ -72,7 +89,7 @@ input {
 	margin-bottom: 8px;
 }
 
-label {
+.labelinicio {
 	color: #81B214;
 	font-size: 12px;
 	line-height: 25px;
@@ -101,19 +118,34 @@ li {
 .inicio {
 	display: flex;
 	justify-content: space-between;
-	padding: 40px 30px 20px 30px;
-	height: 473px;
+	height: 100vh;
+}
+
+.empezareciclar {
+	display: flex;
+	flex-direction: column;
+	justify-content: inherit;
+	margin-left: 60px;
+	height: 65vh;
+	margin-top: 100px;
 }
 
 #logo {
-	margin: -20px 0px 20px 90px;
+	display: flex;
+	align-self: center;
 }
 
-aside {
+.formulario {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	margin: 20px 45px 2px 0px;
+	margin: 100px 70px 0px 0px;
+	justify-content: inherit;
+	height: 65vh;
+}
+
+.formcrear {
+	display: flex;
+	flex-direction: column;
 }
 
 a {
@@ -128,12 +160,13 @@ a {
 #botoniniciosesion {
 	text-decoration:  none;
 	background: #81B214;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 3px 6px #0F4104;
 	border-radius: 45px;
+	border: none;
 	font-size: 15px;
 	color: #F6FEFF;
 	margin-left: 75px;
-	padding: 15px 60px 15px 60px;
+	padding: 15px 50px 15px 60px;
 	transition: background-color .5s;
 }
 
@@ -143,14 +176,14 @@ a {
 
 #botoncrearcuenta {
 	width: 95px;
-	margin-top: 30px;
 	text-decoration:  none;
 	background: #81B214;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 3px 6px #0F4104;
 	border-radius: 45px;
 	font-size: 15px;
 	color: #F6FEFF;
 	margin-left: 85px;
+	margin-top: 50px;
 	padding: 15px 60px 15px 60px;
 	transition: background-color .5s;
 }
@@ -158,7 +191,7 @@ a {
 .notenesuna {
 	display: flex;
 	justify-content: center;
-	margin: 0px 10px 20px 15px;
+	margin: 30px 10px 80px 15px;
 }
 
 
@@ -170,34 +203,12 @@ a {
 	margin: -5px 0px 0px -25px;
 }
 
-footer {
-	width: 100%;
-	background-color: #81B214;
-	padding-top: 9px;
-	font-size: 12px;
-	display: flex;
-	justify-content: space-between;
-	position: absolute;
-	bottom: 0;
-}	
-
-.textoslegales{
-	display: flex;
-	list-style: none;
-	color: #F6FEFF;	
-	margin-left: 15px;
-}	
-
-.iconosfooter {
-	margin: -2px 25px 2px 10px;
-}
+/* -------------tips------------- */
 
 .tipscocina{
 	display: flex;
 	justify-content: center;
 }
-
-
 
 #tipshigiene p{
 	color: #43878D;
@@ -211,7 +222,7 @@ footer {
 	justify-content: center;
 	font-size: 36px;
 	color: #81B214;
-	margin: 100px 20px 50px 20px;
+	margin: 70px 20px 50px 20px;
 }
 
 #titulogrande{
@@ -267,80 +278,101 @@ footer {
 	position: relative;
 }
 
-#botoncompartitufoto:hover{
-	background-color: #0F4104;
+#botonerafoto {
+	width: 100%;
+	text-align: center;
 }
 
-#botonerafoto{
-	margin-top: 50px;
-}
-
-#botoncompartitufoto{
-	display: flex;
-	justify-content: center;
-	width: 200px;
-	margin: 0 auto;
-	text-decoration: none;
+#botoncompartitufoto {
+	text-decoration:  none;
+	width: 120px;
 	background: #81B214;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 3px 6px #0F4104;
 	border-radius: 45px;
 	font-size: 15px;
 	color: #F6FEFF;
 	padding: 15px 60px 15px 60px;
 	transition: background-color .5s;
+	display: inline-block;
 }
 
-#bodycontacto{
-	background-color:#F6FEFF;
-	height: 100%;
-	width: 100%;
-	margin:auto;
-	max-width: 1280px;
+#botoncompartitufoto:hover{
+	background-color: #0F4104;
 }
 
-form{
-	width: 80%;
+
+.formcontacto {
+	width: 50%;
 	height: auto;
 	margin: 0 auto;
 	border: 3px solid #43878D;
 	border-radius: 40px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
+	padding: 15px;
+}
+
+input:focus-within {
+	background-color: #A1C3C6;
+	color: #032B2E;
+	border-color: #032B2E;
 }
 
 form div{
-	width: 40%;
+	width: 45%;
 	height: auto;
 	padding: 10px;	
 }
 
-input{
+.inputcontacto {
 	width: 100%;
 	height: 30px;
-	font-size: 13px;
+	border: 2px solid #43878D;
+	border-radius: 40px;
+	padding-left: 10px;
+	background-color: #F6FEFF;
+	margin-bottom: 8px;
 }
 
-.boton{
-	height: 30px;
-	width: 30%;
+input[type="file"] {
+    color: #81B214;
+	opacity: 60%;
+	font-size: 12px;
+	background-color: #F6FEFF;
+	padding-top: 08px;
+}
+
+input[type="file"]:focus-within {
+	background-color: #A1C3C6;
+	color: #032B2E;
+	border-color: #032B2E;
 }
 
 textarea{
-	border: 3px solid #43878D;
+	border: 2px solid #43878D;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 90%;
 	height: 80%;
 	border-radius: 20px;
 	padding: 10px;
 }
 
-label{
+textarea:focus-within {
+	background-color: #A1C3C6;
+	color: #032B2E;
+	border-color: #032B2E;
+}
+
+.labelcontacto {
 	display: block;
 	height: 25px;
 	padding-top: 10px; 
-	font-size: 20px;
+	color: #81B214;
+	font-size: 12px;
+	line-height: 25px;
+	margin-left: 5px;
 }
 
 .tipscentral{
@@ -399,9 +431,16 @@ h3{
 .tipshigiene{
 	height: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	margin:20px;
+}
+.trestips{
+	display: flex;
+	width: 70%;
+	margin: 10px;
+	
 }
 .contenedor{
 	width: 1280px;
@@ -415,8 +454,8 @@ h3{
 
 .contenedor figure{
 	position: relative;
-	height: 250px;
-	width:230px;
+	height: 230px;
+	width:250px;
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -445,9 +484,108 @@ h3{
 }
 
 .contenedor figure .capa p{
-	color: #fff;
+	color: #F6FEFF;
 	font-size: 15px;
 	padding: 10px;
 	display: flex;
 	align-items: center;
 }
+
+/* -------------mapa------------- */
+
+iframe {
+	border-radius: 25px;
+	width: 75%;
+	height: 380px;
+	display: block;
+	margin: 30px auto;
+}
+
+/* -------------beneficios------------- */
+
+.perfilusuario {
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+}
+
+.nombreusuario {
+	display: flex;
+	flex-direction: column;
+}
+
+.objetivos {
+	background-color: #81B214;
+	border-radius: 40px;
+	padding: 15px;
+}
+
+.beneficiosactuales {
+	display: flex;
+}
+
+.bloqueproximos {
+	display: flex;
+	flex-direction: column;
+}
+
+.proximo {
+	display: flex;
+}
+
+.inputescanear[type="file"] {
+    display: none;
+}
+
+.labelescanear {
+	text-decoration:  none;
+	background: #81B214;
+	box-shadow: 0px 3px 6px #0F4104;
+	border-radius: 45px;
+	border: none;
+	font-size: 15px;
+	color: #F6FEFF;
+	margin-left: 75px;
+	display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+	transition: background-color .5s;
+}
+
+.labelescanear:hover {
+	background-color: #0F4104;
+}
+
+.inputsubirfotoperfil[type="file"] {
+    display: none;
+}
+
+.labelsubirfotoperfil {
+	cursor: pointer;
+}
+
+/* -------------footer------------- */
+
+footer {
+	width: 100%;
+	background-color: #81B214;
+	padding-top: 9px;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+}	
+
+.textoslegales{
+	display: flex;
+	list-style: none;
+	color: #F6FEFF;	
+	margin-left: 15px;
+}	
+
+.iconosfooter {
+	margin: -2px 25px 2px 10px;
+}
+
+/* -------------cierre------------- */

@@ -8,43 +8,81 @@
 </head>
 
 <body>
-	<header>
-		<a href="pagina-principal.html"><img src="img/logo-nav.png" alt="Logo-Surtentable"/></a>
-		<nav>
-			<ul class="navpaginacarrusel">
-				<li>Contáctanos</li>
-				<li>Qué ofrecemos</li>
-				<li>Quiénes somos</li>
-			</ul>
-		</nav>
-	</header>
-	<section>
-		<h3>Nombre de ususario</h3>
-			<ul class="estadisticas">
-				<li>Nivel 1</li>
-				<li>Reciclador novato</li>
-				<li>000/600 puntos</li>
-			</ul>	
-	</section>
-	<section>
-		<h3>Objetivos</h3>
-			<ul class="objetivosdenivel">
-				<li>Iniciar sesión 10 dias seguidos</li>
-				<li>Utilizar los puntos verdes y escanear el código para sumar puntos</li>
-				<li>Comparte la App con otras personas</li>
-			</ul>
-	</section>
-	<section>
-		<h3>Escanea el código del punto verde</h3>
+	<main>
+		<header>
+			<a href="pagina-principal.html"><img src="img/logo-nav.png" alt="Logo-Surtentable"/></a>
+			<nav>
+				<ul class="navpaginacarrusel">
+					<li>Contáctanos</li>
+					<li>Qué ofrecemos</li>
+					<li>Quiénes somos</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="perfilusuario">
+			<form class="fotoperfil" method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
+				<label class="labelsubirfotoperfil" for="archivoss"><img src="img/157EE9FE.jpg" width="130px" alt="foto del usuario"></label>
+				<input class="inputsubirfotoperfil" type="file" name="archivos" id="archivoss">
+			</form>
+			<article class="nombreusuario">
+				<h3>Nombre de usuario</h3>
+				<ul class="estadisticas">
+					<li>Nivel 1 - Reciclador novato</li>
+					<li>000/600 puntos</li>
+				</ul>
+			</article>
+			<aside class="objetivos">
+				<h4>Objetivos</h4>
+				<ul class="objetivosdenivel">
+					<li>Iniciar sesión 10 dias seguidos</li>
+					<li>Utilizar los puntos verdes y escanear el código para sumar puntos</li>
+					<li>Comparte la App con otras personas</li>
+				</ul>
+			</aside>
+		</section>
+		<form class="escanear" method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
+			<label class="labelescanear" for="archivos">Escanear código del punto verde</label>
+			<input class="inputescanear" type="file" name="archivos" id="archivos">
+		</form>
 		<h3>Descuento de por nivel</h3>
-			<ul>
-				<li>Hasta 10% OFF</li>
-				<li>Hasta 15% OFF</li>
-				<li>Nivel 3</li>
-				<li>Nivel 4</li>
-				<li>Nivel 5</li>
-			</ul>
-	</section>
+		<section class="beneficiosactuales">
+			<article class="beneficio1">
+				<p>Hasta 10% OFF</p>
+			</article>
+			<article class="beneficio2">
+				<p>Hasta 15% OFF</p>
+			</article>
+			<article class="beneficio3">
+				<p>Hasta 12% OFF</p>
+			</article>
+			<article class="beneficio4">
+				<p>Hasta 10% OFF</p>
+			</article>
+		</section>
+		<section class="proximosbeneficios">
+			<p>Beneficios de los próximos niveles</p>
+			<article class="bloqueproximos">
+				<div class="proximo">
+					<div class="prox1candado">
+						<p>Ofertas exclusivas</p>
+					</div>
+					<p>Nivel 2</p>
+				</div>
+				<div class="proximo">
+					<div class="prox2candado">
+						<p>Descuentos sorpresa en tus marcas favoritas</p>
+					</div>
+					<p>Nivel 3</p>
+				</div>
+				<div class="proximo">
+					<div class="prox3candado">
+						<p>Descuentos con tus pagos con QR en locales seleccionados</p>
+					</div>
+					<p>Nivel 4</p>
+				</div>
+			</article>
+		</section>
+	</main>
 	<footer>
 		<ul class="textoslegales">
 			<li>©2022 Surtentable</li>
@@ -53,9 +91,9 @@
 			<li>Ayuda</li>
 		</ul>
 		<div class="iconosfooter">
-			<img src="img/Facebook.png" alt="logo facebook"/>
-			<img src="img/Twitter.png" alt="logo twitter"/>
-			<img src="img/Instagram.png" alt="logo instagram"/>
+			<img src="img/facebook.png" alt="logo facebook"/>
+			<img src="img/twitter.png" alt="logo twitter"/>
+			<img src="img/instagram.png" alt="logo instagram"/>
 		</div>
 	</footer>
 </body>
