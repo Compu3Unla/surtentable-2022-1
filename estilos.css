@@ -509,7 +509,7 @@ textarea:focus-within {
 	margin-left: 5px;
 }
 
-/*----pag principal----*/
+/* -------------página principal------------- */
 
 #presentacion{
 	width: 100%;
@@ -523,27 +523,36 @@ textarea:focus-within {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	
 }
 
 #presentacion img{
 	position: absolute;
+<<<<<<< HEAD
+=======
 	border-radius: 20px;
 	 
+>>>>>>> origin/main
 }
 
 #presentacion p{
 	position:relative;
 	font-family: "ReadexPro Bold";
 	font-size:1.5em;
+<<<<<<< HEAD
+	color: #F6FEFF;
+	width: 500px;
+	margin:50px 10px 190px;
+	text-align: center;	
+=======
 	color: #F3E8E8;
 	width: 650px;
 	margin:90px 10px 190px;
 	text-align: center;
 	
+>>>>>>> origin/main
 }
 
-/*----tips central----*/
+/* -------------tips central------------- */
 
 .tipscentral{
 	display: flex;
@@ -667,43 +676,129 @@ iframe {
 
 /* -------------beneficios------------- */
 
+#mainbeneficios {
+	justify-content: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
 .perfilusuario {
 	display: flex;
-	margin: 20px;
-	justify-content: center;
+	margin-bottom: 20px;
+	justify-content: flex-start;
+	margin-top: 40px;
+}
+
+.soloperfil {
+	display: flex;
+	width: 40%;
 }
 
 .nombreusuario {
 	display: flex;
 	flex-direction: column;
+	margin-top: 15px;
+	color: #43878D;
+	margin-right: 5%;
+}
+
+.estadisticas {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.h4beneficios {
+	color: #43878D !important;
+	text-align: start;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.h4objetivos {
+	color: #F6FEFF;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 2%;
+	font-size: 16px;
 }
 
 .objetivos {
 	background-color: #81B214;
 	border-radius: 40px;
-	padding: 15px;
+	padding: 17px 5px 25px 15px;
+	color: #F6FEFF;
+	width: 50%;
+}
+
+.objetivosdenivel {
+	font-size: 13px;
+	line-height: 16px;
 }
 
 .beneficiosactuales {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+.fotocirculo {
+	filter: drop-shadow(0px 5px 3px rgba(15, 65, 4, 0.35));
 }
 
 .beneficio {
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-right: 10%;
+	margin-left: 1%;
+}
+
+.h4descuentospornivel {
+	color: #43878D;
+	margin-top: 3%;
+	justify-content: flex-start;
+	font-size: 16px;
+	margin-left: 1%;
+}
+
+.porcentaje {
+	text-align: center;
+	font-size: 12px;
+	color: #43878D;
+	margin-top: 3px;
 }
 
 .bloqueproximos {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
+	margin-top: 1%;
+	color: #43878D;
 }
 
-.proximo {
+.proximo1 {
 	display: flex;
-	width: 60%;
-	justify-content: space-between
+	width: 90%;
+	justify-content: space-between;
+	border: 1px solid #43878D;
+	border-radius: 20px 20px 0px 0px;
+	padding: 2%;
+}
+
+.proximo2 {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	border: 1px solid #43878D;
+	padding: 2%;
+}
+
+.proximo3 {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	border: 1px solid #43878D;
+	padding: 2%;
+	border-radius: 0px 0px 20px 20px;
 }
 
 .proxcandado {
@@ -711,8 +806,19 @@ iframe {
 	flex-direction: row;
 }
 
+.candado {
+	margin-right: 15px;
+}
+
 .inputescanear[type="file"] {
     display: none;
+}
+
+.escanear {
+	display: grid;
+	justify-items: flex-start;
+	margin-top: 3%;
+	margin-bottom: 4%;
 }
 
 .labelescanear {
@@ -723,7 +829,6 @@ iframe {
 	border: none;
 	font-size: 15px;
 	color: #F6FEFF;
-	margin-left: 75px;
 	display: inline-block;
     padding: 6px 12px;
     cursor: pointer;

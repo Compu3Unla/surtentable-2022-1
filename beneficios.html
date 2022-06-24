@@ -8,35 +8,37 @@
 </head>
 
 <body>
-	<main>
-		<header>
-			<a href="pagina-principal.html"><img src="img/logo-nav.png" alt="Logo-Surtentable"/></a>
-			<nav>
-				<ul class="navpaginacarrusel">
-					<li>Contáctanos</li>
-					<li>Qué ofrecemos</li>
-					<li>Quiénes somos</li>
-				</ul>
-			</nav>
-		</header>
+	<header>
+		<a href="pagina-principal.html"><img src="img/logo-nav.png" alt="Logo-Surtentable"/></a>
+		<nav>
+			<ul class="navpaginacarrusel">
+				<li>Contáctanos</li>
+				<li>Qué ofrecemos</li>
+				<li>Quiénes somos</li>
+			</ul>
+		</nav>
+	</header>
+	<main id="mainbeneficios">
 		<section class="perfilusuario">
-			<form class="fotoperfil" method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
-				<label class="labelsubirfotoperfil" for="archivoss"><img src="img/fotodeperfil.svg" width="100px" height="100px" alt="foto del usuario"></label>
-				<input class="inputsubirfotoperfil" type="file" name="archivos" id="archivoss">
+			<section class="soloperfil">
+				<form class="fotoperfil" method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
+					<label class="labelsubirfotoperfil" for="archivoss"><img class="fotocirculo" src="img/fotodeperfil.svg" width="100px" height="100px" alt="foto del usuario"></label>
+					<input class="inputsubirfotoperfil" type="file" name="archivos" id="archivoss">
 			</form>
-			<article class="nombreusuario">
-				<h3>Nombre de usuario</h3>
-				<ul class="estadisticas">
-					<li>Nivel 1 - Reciclador novato</li>
-					<li>000/600 puntos</li>
-				</ul>
-			</article>
+				<article class="nombreusuario">
+					<h4 class="h4beneficios" >Nombre de usuario</h4>
+					<ul class="estadisticas">
+						<li>Nivel 1 - Reciclador novato</li>
+						<li>000/600 puntos</li>
+					</ul>
+				</article>
+			</section>
 			<aside class="objetivos">
-				<h4>Objetivos</h4>
-				<ul class="objetivosdenivel">
-					<li>Iniciar sesión 10 dias seguidos</li>
-					<li>Utilizar los puntos verdes y escanear el código para sumar puntos</li>
-					<li>Comparte la App con otras personas</li>
+				<h4 class="h4objetivos">Objetivos</h4>
+				<ul>
+					<li class="objetivosdenivel">- Iniciar sesión 10 dias seguidos</li>
+					<li class="objetivosdenivel">- Utilizar los puntos verdes y escanear el código para sumar puntos</li>
+					<li class="objetivosdenivel">- Comparte la App con otras personas</li>
 				</ul>
 			</aside>
 		</section>
@@ -44,42 +46,51 @@
 			<label class="labelescanear" for="archivos">Escanear código del punto verde</label>
 			<input class="inputescanear" type="file" name="archivos" id="archivos">
 		</form>
-		<h3>Descuento de por nivel</h3>
+		<h4 class="h4descuentospornivel">Descuentos de por nivel</h4>
 		<section class="beneficiosactuales">
 			<article class="beneficio">
-				<img src="img/logomarca2.svg" width="100px" height="100px" alt="logo nestlé">
-				<p>Hasta 15% OFF</p>
+				<img class="fotocirculo" src="img/logomarca2.svg" width="80px" height="80px" alt="logo nestlé">
+				<div class="porcentaje">
+					<p>Hasta</p>
+					<p>15% OFF</p>
+				</div>
 			</article>
 			<article class="beneficio">
-				<img src="img/logomarca4.svg" width="100px" height="100px" alt="logo starbucks">
-				<p>Hasta 12% OFF</p>
+				<img class="fotocirculo" src="img/logomarca4.svg" width="80px" height="80px" alt="logo starbucks">
+				<div class="porcentaje">
+					<p>Hasta</p>
+					<p>10% OFF</p>
+				</div>
 			</article>
 			<article class="beneficio">
-				<img src="img/logomarca3.svg" width="100px" height="100px" alt="logo h&h">
-				<p>Hasta 10% OFF</p>
+				<img class="fotocirculo" src="img/logomarca3.svg" width="80px" height="80px" alt="logo h&h">
+				<div class="porcentaje">
+					<p>Hasta</p>
+					<p>15% OFF</p>
+				</div>
 			</article>
 		</section>
 		<section class="proximosbeneficios">
-			<p>Beneficios de los próximos niveles</p>
+			<h4 class="h4descuentospornivel"> Beneficios de los próximos niveles</h4>
 			<article class="bloqueproximos">
-				<div class="proximo">
+				<div class="proximo1">
 					<div class="proxcandado">
-						<img src="img/candado.svg" width="30px" alt="candado">
+						<img class="candado" src="img/candado.svg" width="20px" alt="candado">
 						<p>Ofertas exclusivas</p>
 					</div>
 					<p>Nivel 2</p>
 				</div>
-				<div class="proximo">
+				<div class="proximo2">
 					<div class="proxcandado">
-						<img src="img/candado.svg" width="30px" alt="candado">
-						<p>Descuentos sorpresa en tus marcas favoritas</p>
+						<img class="candado" src="img/candado.svg" width="20px" alt="candado">
+						<p>Descuentos sorpresa en marcas</p>
 					</div>
 					<p>Nivel 3</p>
 				</div>
-				<div class="proximo">
+				<div class="proximo3">
 					<div class="proxcandado">
-						<img src="img/candado.svg" width="30px" alt="candado">
-						<p>Descuentos con tus pagos con QR en locales seleccionados</p>
+						<img class="candado" src="img/candado.svg" width="20px" alt="candado">
+						<p>Descuentos con tus pagos con QR</p>
 					</div>
 					<p>Nivel 4</p>
 				</div>
