@@ -166,6 +166,15 @@ nav{
 	font-size: 45px;
 	color: #F6FEFF;
 }
+.tituloformulario{
+	font-size: 45px;
+	color: #F6FEFF;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: 50px;
+}
 
 .flechatras {
 	margin: 0px 0px 0px 10px;
@@ -267,6 +276,17 @@ a {
 	color: #F6FEFF;
 	margin-left: 75px;
 	padding: 15px 50px 15px 60px;
+	transition: background-color .5s;
+}
+#botonformulario {
+	text-decoration:  none;
+	background: #81B214;
+	box-shadow: 0px 3px 6px #0F4104;
+	border-radius: 45px;
+	border: none;
+	font-size: 15px;
+	color: #F6FEFF;
+	padding: 15px 50px 15px 50px;
 	transition: background-color .5s;
 }
 
