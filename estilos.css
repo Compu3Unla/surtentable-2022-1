@@ -897,7 +897,7 @@ footer {
 	text-align: center;
 }
 
-	.tipscentral{
+	.tipscentral, .tipshigiene, .trestips{
 	flex-direction: column;
 	width: 60%;
 	margin: 0 auto;
@@ -905,6 +905,11 @@ footer {
 	#botonerafoto {
 	margin:30px 0px 40px;
 }
-	
+
+	.contenedor{
+		max-width: 600px;
+		margin: 0 auto;
+
+	}
 }
 /* -------------cierre------------- */
