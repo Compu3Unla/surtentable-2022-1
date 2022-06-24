@@ -281,6 +281,7 @@ a {
 	padding: 15px 50px 15px 60px;
 	transition: background-color .5s;
 }
+
 #botonformulario {
 	text-decoration:  none;
 	background: #81B214;
@@ -983,5 +984,53 @@ footer {
 	margin-top: 8%;
 }
 
+/* -------------inicio sesión------------- */
+
+#fondobody {
+	background-image: none;
+}
+
+.titulogrande {
+	display: none;
+}
+	
+.inputinicio {
+	border: 3px solid #43878D;
+	width: 370px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.labelinicio {
+	font-size: 15px;
+	line-height: 27px;
+	margin-left: -8px;
+}
+
+.textochico {
+	font-size: 15px;
+}
+
+::placeholder{
+	font-size: 15px;
+}
+	
+.empezareciclar {
+	margin-left: 40px;
+	margin-top: 90px;
+}
+
+.formulario {
+	margin: 100px 100px 0px 0px;
+}
+
+#botoniniciosesion {
+	font-size: 18px;
+}
+	
+#createuna {
+	font-size: 15px;
+}
+	
 }
 /* -------------cierre------------- */
