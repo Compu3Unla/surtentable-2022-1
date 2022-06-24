@@ -904,22 +904,24 @@ footer {
 	margin: -2px 25px 2px 10px;
 }
 @media screen and (max-width: 600px){
+	
 #navprincipal{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-end;
-	top: 0;
-	
+	top: 0;	
 }
-	.contactanos{
-	display: none;
-	}
-	header{
-	padding: 8px 12px 8px 12px;
-	}
 	
-	footer {
+.contactanos{
+	display: none;
+}
+	
+header{
+	padding: 8px 12px 8px 12px;
+}
+	
+footer {
 	font-size: 15px;
 	display: flex;
 	flex-direction: column;
@@ -927,55 +929,59 @@ footer {
 	align-items: center;
 	position: relative;
 	bottom: 0 !important;
-	
 }	
-	.textoslegales{
+	
+.textoslegales{
 	display: flex;
 	text-align: center;
 	margin: 0 60px;
 }
-	.iconosfooter {
+	
+.iconosfooter {
 	padding-top:15px;
-	margin:  auto;
-	  
+	margin:  auto;  
 }
-	#titulogrande{
+	
+#titulogrande{
 	text-align: center;
 }
 
-	.tipscentral, .tipshigiene, .trestips{
+.tipscentral, .tipshigiene, .trestips{
 	flex-direction: column;
 	width: 60%;
 	margin: 0 auto;
 }
-	#botonerafoto {
+
+#botonerafoto {
 	margin:30px 0px 40px;
 }
 
-
-	.contenedor{
-		max-width: 250px;
-		display: flex;
-		justify-content: flex-start;
-		align-items:flex-start;
-		margin: 0 auto;
+.contenedor{
+	max-width: 250px;
+	display: flex;
+	justify-content: flex-start;
+	align-items:flex-start;
+	margin: 0 auto;
 		
 
-	}
-	#presentacioniconos{
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 0px;
-		margin-bottom: 50px;
-	}
-	#presentacioniconos article{
-		padding: 10px;
-	}
+}
+	
+#presentacioniconos{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+	
+#presentacioniconos article{
+	padding: 10px;
+}
 	
 #presentacion p{
-		margin: 80px auto;
-	}
+	margin: 80px auto;
+}
+	
 /* -------------beneficios------------- */
 
 .altura {
