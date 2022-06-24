@@ -527,29 +527,17 @@ textarea:focus-within {
 
 #presentacion img{
 	position: absolute;
-<<<<<<< HEAD
-=======
 	border-radius: 20px;
-	 
->>>>>>> origin/main
 }
 
 #presentacion p{
 	position:relative;
 	font-family: "ReadexPro Bold";
 	font-size:1.5em;
-<<<<<<< HEAD
-	color: #F6FEFF;
-	width: 500px;
-	margin:50px 10px 190px;
 	text-align: center;	
-=======
 	color: #F3E8E8;
 	width: 650px;
 	margin:90px 10px 190px;
-	text-align: center;
-	
->>>>>>> origin/main
 }
 
 /* -------------tips central------------- */
