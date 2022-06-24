@@ -656,10 +656,55 @@ h3{
 
 iframe {
 	border-radius: 25px;
-	width: 75%;
-	height: 380px;
+	width: 220%;
+	height: 500px;
 	display: block;
-	margin: 30px auto;
+	margin: 20px auto auto 20%;
+}
+
+.mapa {
+	display: flex;
+	margin-top: 5%;
+}
+
+.mainmapa{
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.referenciamapa {
+	margin-top: 5%;
+	width: 25%;
+}
+
+.puntosverdes {
+	background-color: #81B214;
+	padding: 3% 3% 3% 8%;
+	border-radius: 15px 15px 0px 0px;
+	color: #F6FEFF;
+	font-size: 15px;
+}
+
+.direcciones {
+	border: 1px solid #43878D;
+	border-radius: 0px 0px 15px 15px;
+	height: 50vh;
+	padding: 5% 5% 5% 8%;
+	color: #43878D;
+	font-size: 12px;
+}
+
+.seccionreferenciamapa {
+	font-family: "ReadexPro Bold";
+	color: #81B214;
+	font-size: 15px;
+	margin-top: 5%;
+}
+
+.descripciondireccion {
+	margin-left: 5%;
+	margin-top: 2%;
 }
 
 /* -------------beneficios------------- */
@@ -1042,6 +1087,39 @@ footer {
 	
 #createuna {
 	font-size: 15px;
+}
+
+/* -------------mapa------------- */
+
+iframe {
+	width: 90%;
+	height: 280px;
+	margin: 12px auto 5% 5%;
+}
+
+.mapa {
+	display: flex;
+	flex-direction: column;
+	margin-top: 8%;
+}
+
+.referenciamapa {
+	margin-left: 5%;
+	width: 90%;
+}
+
+.direcciones {
+	height: 55vh;
+	font-size: 15px;
+	padding-top: 1%;
+}
+
+.seccionreferenciamapa {
+	font-size: 17px;
+}
+
+.descripciondireccion {
+	margin-top: 1%;
 }
 	
 }
