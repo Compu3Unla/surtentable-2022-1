@@ -879,7 +879,7 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position:relative;
+	position: relative;
 	bottom: 0 !important;
 	
 }	
@@ -916,8 +916,20 @@ footer {
 		
 
 	}
-
-
+	#presentacioniconos{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	#presentacioniconos article{
+		padding: 10px;
+	}
+	
+#presentacion p{
+		margin: 80px auto;
+	}
 /* -------------beneficios------------- */
 
 .altura {
