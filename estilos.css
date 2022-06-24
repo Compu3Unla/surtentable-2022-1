@@ -24,6 +24,106 @@
 	font-family: "ReadexPro Light"; src:url("font/ReadexPro-Light.ttf")
 }
 
+/* -------------carrusel------------- */
+
+.navcarrusel{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+	background-color: #F6FEFF;
+	font-style: normal;
+	font-size: 12px;
+	color: #43878D;
+	margin-bottom: 8px;
+}
+
+#registrarme a {
+	color: #F6FEFF !important;
+}
+
+#iniciarsesion a {
+	color: #F6FEFF !important;
+}
+
+#iniciarsesion:hover{
+	background-color: #0F4104;
+}
+
+#registrarme:hover{
+	background-color: #032B2E;
+}
+
+#iniciarsesion{
+	background: #81B214;
+	padding: 8px 8px 8px 20px;
+	margin:0px 10px 0px 20px;
+	width: 90px;
+	box-shadow: 0px 3px 6px #0F4104;
+	border-radius: 40px;	
+	transition: background-color .5s;
+}
+
+#registrarme{
+	padding: 8px 8px 8px 25px;
+	margin:0px 10px;
+	width: 90px;
+	box-shadow: 0px 3px 6px #032B2E;
+	border-radius: 40px;
+	background-color: #43878D;
+	transition: background-color .5s;
+}
+
+.slider{
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 45s infinite alternate ease-in;
+}
+
+.slider li{
+	width: 100%;
+	list-style:none;
+}
+
+.slider img{
+	width: 100%;
+}
+
+@keyframes cambio{
+	0%{margin-left:0;}
+	20%{margin-left:0;}
+	
+	25%{margin-left:-100%;}
+	45%{margin-left:-100%;}
+	
+	50%{margin-left:-200%;}
+	70%{margin-left:-200%;}
+	
+	75%{margin-left:-300%;}
+	100%{margin-left:-300%;}	
+}
+
+#ContenedorPuntos {
+	display: flex;
+	justify-content: center;	
+}
+
+#ContenedorPuntos a:hover{
+	color: #0F4104;
+}
+
+#ContenedorPuntos a{
+	font-size: 15px;
+	padding: 2px 10px;
+	color: #81B214;
+}
+
 /* -------------general------------- */
 
 * {
@@ -278,6 +378,14 @@ a {
 	position: relative;
 }
 
+/* -------------form------------- */
+
+#bodyform {
+	background-image: url("img/fondoformulario.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #botonerafoto {
 	width: 100%;
 	text-align: center;
@@ -302,6 +410,7 @@ a {
 
 
 .formcontacto {
+	background-color: #F6FEFF;
 	width: 50%;
 	height: auto;
 	margin: 0 auto;
@@ -574,7 +683,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
-	bottom: 0;
+	bottom: 0 !important;
 }	
 
 .textoslegales{
