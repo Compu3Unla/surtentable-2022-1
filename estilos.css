@@ -496,7 +496,28 @@ iframe {
 
 /* -------------beneficios------------- */
 
+.perfilusuario {
+	display: flex;
+	margin: 20px;
+}
+.nombreusuario {
+	display: flex;
+	flex-direction: column;
+}
 
+.objetivos {
+	background-color: #81B214;
+	border-radius: 40px;
+	padding: 15px;
+}
+
+.beneficiosactuales {
+	display: flex;
+}
+
+.proximosbeneficios {
+	
+}
 
 /* -------------footer------------- */
 
