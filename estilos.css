@@ -873,5 +873,24 @@ footer {
 	header{
 	padding: 8px 12px 8px 12px;
 	}
+	footer {
+	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}	
+	.textoslegales{
+	display: flex;
+	text-align: center;
+	margin: 0 60px;
+}
+	.iconosfooter {
+	padding-top:15px;
+	margin:  auto;
+	
+   
+}
 }
 /* -------------cierre------------- */
