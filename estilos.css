@@ -503,6 +503,8 @@ textarea:focus-within {
 
 #presentacion img{
 	position: absolute;
+	border-radius: 20px;
+	 
 }
 
 #presentacion p{
@@ -511,7 +513,7 @@ textarea:focus-within {
 	font-size:1.5em;
 	color: #F3E8E8;
 	width: 800px;
-	margin:50px 10px 190px;
+	margin:90px 10px 190px;
 	text-align: center;
 	
 }
