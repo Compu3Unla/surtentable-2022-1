@@ -908,8 +908,12 @@ footer {
 
 
 	.contenedor{
-		max-width: 600px;
+		max-width: 250px;
+		display: flex;
+		justify-content: flex-start;
+		align-items:flex-start;
 		margin: 0 auto;
+		
 
 	}
 
