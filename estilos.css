@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* -------------fuentes------------- */
+
 @font-face {
 	font-family: "ReadexPro Regular";
 	src:url("Font/ReadexPro-Regular.ttf")
@@ -22,6 +24,8 @@
 	font-family: "ReadexPro Light"; src:url("font/ReadexPro-Light.ttf")
 }
 
+/* -------------general------------- */
+
 * {
 	font-family: ReadexPro Regular;
 	margin: 0px;
@@ -30,12 +34,6 @@
 
 body {
 	background-color: #F6FEFF;
-}
-
-#fondobody{
-	background-image: url(img/fondoinicio.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 header{
@@ -71,6 +69,14 @@ nav{
 
 .flechatras {
 	margin: 0px 0px 0px 10px;
+}
+
+/* -------------inicio de sesión------------- */
+
+#fondobody{
+	background-image: url(img/fondoinicio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .inputinicio {
@@ -197,6 +203,8 @@ a {
 	margin: -5px 0px 0px -25px;
 }
 
+/* -------------tips------------- */
+
 .tipscocina{
 	display: flex;
 	justify-content: center;
@@ -270,13 +278,28 @@ a {
 	position: relative;
 }
 
+#botonerafoto {
+	width: 100%;
+	text-align: center;
+}
+
+#botoncompartitufoto {
+	text-decoration:  none;
+	width: 120px;
+	background: #81B214;
+	box-shadow: 0px 3px 6px #0F4104;
+	border-radius: 45px;
+	font-size: 15px;
+	color: #F6FEFF;
+	padding: 15px 60px 15px 60px;
+	transition: background-color .5s;
+	display: inline-block;
+}
+
 #botoncompartitufoto:hover{
 	background-color: #0F4104;
 }
 
-#botonerafoto{
-	margin-top: 50px;
-}
 
 .formcontacto {
 	width: 50%;
@@ -461,6 +484,8 @@ h3{
 	align-items: center;
 }
 
+/* -------------mapa------------- */
+
 iframe {
 	border-radius: 25px;
 	width: 75%;
@@ -468,6 +493,8 @@ iframe {
 	display: block;
 	margin: 30px auto;
 }
+
+/* -------------footer------------- */
 
 footer {
 	width: 100%;
@@ -490,3 +517,5 @@ footer {
 .iconosfooter {
 	margin: -2px 25px 2px 10px;
 }
+
+/* -------------cierre------------- */
