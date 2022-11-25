@@ -1,5 +1,5 @@
 # Grupo Surtentable 1er cuatrimestre 2022
-Equipo con temática "Medio Ambiente" 
+Equipo con temática "Medio Ambiente". Proponen un sitio donde la gente consiga cupones de descuento al sumar puntos cuando recicla. Buscan incentivar el reciclaje por medio de premios individuales. 
 
 ## Integrantes
 * Blaszkiewicz, Ingrid
